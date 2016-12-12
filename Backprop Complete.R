@@ -124,7 +124,7 @@ epoch <- function(){
   
   for(t in 1:length(words.tested)){
     backprop(words.tested[[t]]$input, words.tested[[t]]$output)
-    # uncomment any of the lines below to run different versions of the model
+    # Uncomment any of the lines below to run different versions of the model. Uncomment lines one at a time.
     # REM.decay.all()
     # REM.enhance()
     # REM.contrast()
